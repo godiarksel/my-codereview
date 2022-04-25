@@ -1,0 +1,97 @@
+body {
+    background-color: whitesmoke;
+    font-family:monospace;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+#header{
+    display: flex;
+    background-color: black;
+    padding: 20px 0px 20px 20px;
+}
+.header-img{
+    border-radius: 150px;
+    border-color: black;
+    height: 70px;
+    width: 70px;
+}
+#nav_bar{
+    display: flex;
+    margin-left: auto;
+    
+}
+.nav-link{
+    margin-left: 5px;
+    padding: 20px;
+    background-color: grey;
+    border:none ;
+    font-family: monospace;
+    font-weight: bold;
+    color: black;
+    border-radius: 5%;
+    font-size: 13px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    margin:30px
+}
+#submit{
+background-color: yellow;
+color: black;
+border: none;
+font-size: 13px;
+font-weight: bold;
+margin-top: 10px;
+}
+
+.hero{
+    display: flex;
+    margin: 30px 5px 30px 5px;
+    text-align: center;
+    padding: 30px;
+
+}
+.hero img{
+    border-radius: 15%;
+}
+.hero h1{
+    text-align: center;
+}
+#video{
+    background-color: grey;
+    padding: 30px 10px 30px 10px;
+}
+#trombones{
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.tromb-type{
+    border-style :solid;
+    padding: 20px;
+    border-spacing: 10px;
+}
+.tromb-type button{
+background-color: yellow;
+color: black;
+border: none;
+font-size: 13px;
+font-weight: bold;
+margin-top: 10px;
+padding: 15px;
+}
+#footer{
+background-color: grey;
+color: white;
+text-align: left;
+padding :40px 100px 40px 100px;
+margin-top: 70px;
+}
+
